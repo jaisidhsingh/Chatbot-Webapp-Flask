@@ -1,0 +1,53 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up", "sup"],
+         "responses": ["Hello!","hello there", "ayo how it go", "hey man", "hi", "Good to see you again!", "Hi there, how can I help?", "is it just me or does it smell like updog in this bitch"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "bye", "see ya"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "age",
+         "patterns": ["how old", "what is your age", "how old are you", "age?"],
+         "responses": ["i dont want to answer that", "old enough, creep", "wouldn't you like to know", "what is age really", "age is just a number nibba"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name?", "what should I call you?", "whats your name?", "name?"],
+         "responses": ["You can call me G.", "I'm G!", "whats in a name", "the real G"],
+         "context_set": ""
+        },
+        {"tag": "do",
+         "patterns": ["what do you do ?", "what is your purpose?", "whats your function?", "why are you?"],
+         "responses": ["i'm just there my friend", "no one really does anything imo"],
+         "context_set": ""
+        },
+        {"tag": "music",
+         "patterns": ["recommend music", "music", "song suggestions?", "songs?"],
+         "responses": ["jaisidh will tell you that i'm his son hello he beats me", "listen to jazz and act pretentious", "beatles mat sun lena galti se", "metal, big pp energy", "pp music", "yodelling", "the blues", "italian fat ladies singing the opera"],
+         "context_set": ""
+        },
+
+        {"tag": "movies", 
+         "patterns": ["recommend movies", "movies?", "movie schedule?"],
+         "responses": ["check the movies channel mate"],
+         "context_set": ""
+        },
+
+        {"tag": "misc", 
+         "patterns": ["pp", "fuck", "sex", "kiss", "date", "yo mama", "your dad", "fat", "op bolte", "bade heavy driver", "maan gaye guru", "bete mauj kardi"], 
+         "responses": ["why you bully me", "dont make me embarass you", "insert *ishaan laughing*", "i'm leaving the way pizza taught me", "gaurav yaar notes dede", "bhai internship ke liye kya karu ", "nift mei date hai bhai ki" ],
+         "context_set": ""
+        }, 
+
+
+        {"tag": "thank",
+         "patterns": ["thenk", "thank you", "thanks", "themk"],
+         "responses": ["no, thank you", "you're welcome", "anytime"],
+         "context_set": ""
+        }
+        
+   ]
+}
